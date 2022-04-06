@@ -60,44 +60,28 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x === y)  {
-    return true 
-  } else {
-    return false
-  }
+  return x === y
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length === str2.length) {
-    return true
-  } else {
-    return false
-  }
+  return str1.length === str2.length
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90) {
-    return true
-  } else {
-    return false
-  }
+  return num < 90
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50) {
-    return true
-  } else {
-    return false
-  }
+  return num > 50
 }
 
 function obtenerResto(x, y) {
@@ -110,22 +94,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
-    return true
-  } else {
-    return false
-  }
+  return num % 2 === 0
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 1) {
-    return true
-  } else {
-    return false
-  }
+  return num % 2 === 1
 }
 
 function elevarAlCuadrado(num) {
@@ -138,7 +114,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return Math.pow (num, 3)
+  return num ** 3
 }
 
 function elevar(num, exponent) {
@@ -172,11 +148,9 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero > 0) {
     return "Es positivo"
-  } else if (numero < 0) {
+  } else if (numero < 0) { 
     return "Es negativo"
-  } else {
-    return false
-  }
+  } return false
 }
 
 function agregarSimboloExclamacion(str) {
@@ -235,13 +209,9 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1) {
-    return "Dato incorrecto"
-  } else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+  if (letra === "a" || letra === "e" ||letra === "i" ||letra === "o" ||letra === "u" ){
     return "Es vocal"
-  } else {
-    return "Dato incorrecto"
-  }
+  } return "Dato incorrecto"
 }
 
 
